@@ -76,10 +76,8 @@ __MAC_OS_X_VERSION_MIN_REQUIRED < __MAC_10_7)
 
 #import <UIKit/UIKit.h>
 
-
 #define ICONSOLE_ADD_EXCEPTION_HANDLER 1 //add automatic crash logging
 #define ICONSOLE_USE_GOOGLE_STACK_TRACE 1 //use GTM functions to improve stack trace
-
 
 typedef enum
 {
