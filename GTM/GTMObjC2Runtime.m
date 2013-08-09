@@ -18,6 +18,7 @@
 
 #import "GTMObjC2Runtime.h"
 
+#ifndef TARGET_IPHONE_SIMULATOR
 #if MAC_OS_X_VERSION_MIN_REQUIRED < MAC_OS_X_VERSION_10_5
 #import <stdlib.h>
 #import <string.h>
@@ -156,5 +157,5 @@ struct objc_method_description protocol_getMethodDescription(Protocol *p,
 
 
 #endif
-
+#endif
 
